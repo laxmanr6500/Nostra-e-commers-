@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSTRA</title>
+    <!-- Fonr Awesome  link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars" onclick=" clickbar()"></i>
+        </div>
+    </nav>
+
+    <!-- Side navbar -->
+    <div class="side-navbar">
+        <p style="text-align:right">
+            <i class="fa-solid fa-xmark" onclick="closebar()"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class=" side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="form-container">
+       <form action="" class="form">
+            <h2 class="contact">CONTACT US</h2>
+            <p class="info">Name</p>
+            <input type="text" class="box"> 
+            <p class="info">Phone</p>
+            <input type="text" class="box">
+            <p class="info">Email</p>
+            <input type="Email" class="box">
+            <p class="info">Message</p>
+            <textarea class="box-1"></textarea>
+            <button class="btn">Submit</button>
+       </form>
+    </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box1">
+                    <h2 class="heading-text">Nostra</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, reiciendis.</p>
+                    <div class="footer-icon-container">
+                        <i class=" fa-brands fa-instagram" style="color:#ffff;"></i>
+                        <i class=" fa-brands fa-twitter" style="color:#ffff;"></i>
+                        <i class=" fa-brands fa-facebook" style="color:#ffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <p>@20024 Nostra.com</p>
+        </div>
+    <script src="script.js"></script>
+</body>
